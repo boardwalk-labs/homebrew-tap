@@ -2,8 +2,8 @@ class Boardwalk < Formula
   desc "The boardwalk CLI: author, validate, run, and deploy Boardwalk workflows"
   homepage "https://github.com/boardwalk-labs/cli"
   # url + sha256 are rewritten by the CLI release workflow's bump-homebrew job on each tagged release.
-  url "https://registry.npmjs.org/@boardwalk-labs/cli/-/cli-0.1.26.tgz"
-  sha256 "1741531a048272ed56415d3e7bf12fa121f1228673ee6f0442e59086887683a5"
+  url "https://registry.npmjs.org/@boardwalk-labs/cli/-/cli-0.1.27.tgz"
+  sha256 "18dda85609b4d1008f921334f2da0064d908a5eab5fa5001390f705bca15bd82"
   license "MIT"
 
   depends_on "node"
