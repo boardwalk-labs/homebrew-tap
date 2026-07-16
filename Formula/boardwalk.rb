@@ -1,29 +1,29 @@
 class Boardwalk < Formula
   desc "Author, validate, run, and deploy Boardwalk workflows"
   homepage "https://github.com/boardwalk-labs/cli"
-  version "0.2.4"
+  version "0.2.5"
   license "MIT"
 
   # Native single-file binary (Bun-compiled) — no Node required. The per-platform url + sha256 are
   # rewritten by the CLI release workflow's bump-homebrew job on each tagged release.
   on_macos do
     on_arm do
-      url "https://github.com/boardwalk-labs/cli/releases/download/v0.2.4/boardwalk-darwin-arm64"
-      sha256 "6b7c4285592b269bd98f1bf238d6672a4bf3d2c61f6b5528f68a852d5ce5d5a7"
+      url "https://github.com/boardwalk-labs/cli/releases/download/v0.2.5/boardwalk-darwin-arm64"
+      sha256 "cedcf85fb3f0e29d3c21114d90c52885002092013f2259fe18ccc7da71236f02"
     end
     on_intel do
-      url "https://github.com/boardwalk-labs/cli/releases/download/v0.2.4/boardwalk-darwin-x64"
-      sha256 "19f570349147cedb82006613fe5cbf71476525dd0fccdb042f79a97a6a7cfa5e"
+      url "https://github.com/boardwalk-labs/cli/releases/download/v0.2.5/boardwalk-darwin-x64"
+      sha256 "009d9f43bb11ced3632c7aa6277cb616a4b421e22e001145218a4077849222a1"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/boardwalk-labs/cli/releases/download/v0.2.4/boardwalk-linux-arm64"
-      sha256 "bc4f89afc75fb5744c35cc74d518d1cbf923a7ae28aa310c83322adb07ec02c9"
+      url "https://github.com/boardwalk-labs/cli/releases/download/v0.2.5/boardwalk-linux-arm64"
+      sha256 "20594399836ca484801ff41c23666d31c83a8633d61e88952c04dc8e42cdc3f3"
     end
     on_intel do
-      url "https://github.com/boardwalk-labs/cli/releases/download/v0.2.4/boardwalk-linux-x64"
-      sha256 "803f1f549b4bcb07122968b1421fc4ca39834cab95b53722548b560a864f34b5"
+      url "https://github.com/boardwalk-labs/cli/releases/download/v0.2.5/boardwalk-linux-x64"
+      sha256 "3ff5ce454eb6750431f319810d974c0d6625cd4cc9563b96bcb0128687ee919a"
     end
   end
 
